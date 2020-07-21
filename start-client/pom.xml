@@ -28,6 +28,15 @@
 						</configuration>
 					</execution>
 					<execution>
+						<id>yarn add node-gyp</id>
+						<goals>
+							<goal>yarn</goal>
+						</goals>
+						<configuration>
+							<arguments>add node-gyp</arguments>
+						</configuration>
+					</execution>
+					<execution>
 						<id>yarn install</id>
 						<goals>
 							<goal>yarn</goal>
