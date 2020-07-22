@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.spring.start</groupId>
 	<artifactId>start-parent</artifactId>
-	<version>${revision}</version>
+	<version>0.0.4</version>
 	<packaging>pom</packaging>
 	<name>start.spring.io</name>
 
@@ -56,12 +56,12 @@
 			<dependency>
 				<groupId>io.spring.start</groupId>
 				<artifactId>start-client</artifactId>
-				<version>${revision}</version>
+				<version>0.0.4</version>
 			</dependency>
 			<dependency>
 				<groupId>io.spring.start</groupId>
 				<artifactId>start-site</artifactId>
-				<version>${revision}</version>
+				<version>0.0.4</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
